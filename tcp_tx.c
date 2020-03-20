@@ -1,7 +1,3 @@
-// Contains code from:
-// https://github.com/DPDK/dpdk/blob/master/examples/helloworld/main.c
-// https://github.com/DPDK/dpdk/blob/master/examples/skeleton/basicfwd.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -10,7 +6,9 @@
 
 #include <rte_ethdev.h>
 
-#include "/home/ziyan/Dropbox/mylibrary/dpdk_tools/lib/dpdk_utility.h"
+
+//change it to the path for the ziyan_tcpstack
+#include "/home/ziyan/Dropbox/mylibrary/ziyan_tcpstack/lib/dpdk_utility.h"
 
 static time_t t1;
 static uint64_t packet_count = 0;
